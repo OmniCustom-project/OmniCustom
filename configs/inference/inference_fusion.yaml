@@ -1,0 +1,29 @@
+ckpt_dir: ./ckpts
+ckpt_name: Ovi/model.safetensors
+lora_path: ./ckpts/step-92000.safetensors
+self_lora: true #true False
+# face embedder 
+face_embedder_ckpt_dir: ./ckpts/InsightFace
+face_ip_emb_dim: 512    #Null
+# audio embedder
+audio_embedder_ckpt_dir: ./ckpts/naturalspeech3_facodec
+audio_ip_emb_dim: 256  #Null
+# output
+output_dir: ./outputs/
+sample_steps: 50
+solver_name: unipc
+shift: 5.0
+sp_size: 1
+audio_guidance_scale: 3.0
+video_guidance_scale: 4.0
+mode: "id2v"                           # ["id2v", "t2v", "i2v", "t2i2v"] all comes with audio
+fp8: False
+cpu_offload: False
+seed: 102
+crop_face: true 
+video_negative_prompt: "jitter, bad hands, blur, distortion, two people, two persons, aerial view, overexposed, low quality, deformation, a poor composition, bad hands, bad teeth, bad eyes, bad limbs, distortion, blurring, text, subtitles, static, picture, black border" # "jitter, bad hands, blur, distortion, two people, super-big head, no human"  # Artifacts to avoid in video
+audio_negative_prompt: "robotic, muffled, echo, distorted"    # Artifacts to avoid in audio
+video_frame_height_width: [576, 992]                        # only useful if mode = t2v or t2i2v, recommended values: [512, 992], [992, 512], [960, 512], [512, 960], [720, 720], [448, 1120]
+text_prompt: ./example_prompts/benchmark_example.csv 
+slg_layer: 11
+each_example_n_times: 1
