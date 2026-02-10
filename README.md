@@ -150,9 +150,13 @@ bash inference.sh
 We would like to thank the following projects:
 
 **[OVI](https://github.com/character-ai/Ovi)**: Our OmniCustom is finetuned over OVI for ID and timbre customization.
+
 **[Naturalspeech 3](https://github.com/lifeiteng/naturalspeech3_facodec)**: 256-D timbre embeddings are extracted using Naturalspeech 3.
+
 **[InsightFace](https://github.com/deepinsight/insightface)**: 512-D face embeddings are extracted using InsightFace.
+
 **[MMAudio](https://github.com/hkchengrex/MMAudio)**: Audio vae is provided by MMAudio.
+
 **[Wan2.2](https://github.com/Wan-Video/Wan2.2)**: The video branch is initialized from the Wan2.2 repository.
 
 ## ⭐
