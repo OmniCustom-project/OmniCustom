@@ -143,20 +143,23 @@ bash inference.sh
         <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/images/ref_68.png" alt="Reference Image 1" style="max-height:200px; max-width:100%;">
       </td>
       <td align="center" style="vertical-align:middle; padding:12px; border:1px solid #ddd;">
-        <!-- 音频播放器 -->
-        <audio controls style="width:100%; max-width:200px;">
-          <source src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00068_audio.wav" type="audio/wav">
-          Your browser does not support the audio element.
-        </audio>
-        <br>
-        <!-- 音频下载链接 -->
-        <small>
-          <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00068_audio.wav" download style="text-decoration:none; color:#666;">
-            <span style="font-size:12px;">⤓ 下载音频</span>
-          </a>
-          <span style="color:#999; font-size:11px; margin-left:5px;">~5秒</span>
-        </small>
-      </td>
+  <!-- 主要尝试播放MP3 -->
+  <audio controls style="width:100%; max-width:200px;">
+    <source src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00068_audio.mp3" type="audio/mpeg">
+    <!-- 如果不支持MP3，回退到WAV -->
+    <source src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00068_audio.wav" type="audio/wav">
+    <!-- 如果都不支持，显示下载链接 -->
+    您的浏览器不支持音频播放。请
+    <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00068_audio.mp3" download>下载MP3</a>
+  </audio>
+  <br>
+  <small>
+    <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00068_audio.mp3" download style="text-decoration:none; color:#666;">
+      <span style="font-size:12px;">⤓ 下载 MP3 音频</span>
+    </a>
+    <span style="color:#999; font-size:11px; margin-left:5px;">~5秒</span>
+  </small>
+</td>
       <td style="line-height:1.8; vertical-align:middle; padding:12px; border:1px solid #ddd;">
         A man stands at the podium in OpenAI's luxurious conference room, behind him a massive electronic screen displays the company's glowing profit data. He grips the microphone firmly, gazes across the audience below, and announces in a steady tone: &lt;S&gt;The board wants to sell OpenAI to Zuckerberg, which is unacceptable.&lt;E&gt;
       </td>
