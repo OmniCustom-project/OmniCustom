@@ -76,7 +76,7 @@ huggingface-cli download bytedance-research/Phantom --local-dir ./ckpts
 
 ## ⚙️ Configure OmniCustom
 
-The configure file of  OmniCustom [OmniCustom/configs/inference/inference_fusion.yaml](OmniCustom/configs/inference/inference_fusion.yaml ) can be modified. The following parameters control generation quality, video resolution, and how text, image, and audio inputs are balanced:
+The configure file of  OmniCustom [OmniCustom/configs/inference/inference_fusion.yaml](configs/inference/inference_fusion.yaml) can be modified. The following parameters control generation quality, video resolution, and how text, image, and audio inputs are balanced:
 
 ```yaml
 ckpt_name: Ovi/model.safetensors  #base model
