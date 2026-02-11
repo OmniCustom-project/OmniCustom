@@ -131,6 +131,7 @@ bash inference.sh
 
 
 ##### More Results
+
 <table width="100%" border="1" cellpadding="20" cellspacing="0" align="center" style="border-collapse: collapse; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
   <thead>
     <tr bgcolor="#f5f5f5">
@@ -147,15 +148,11 @@ bash inference.sh
         <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/images/ref_68.png" alt="Reference Image 1" style="max-height:200px; max-width:100%; object-fit: contain;">
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <div style="width:160px; margin:0 auto;">
-          <audio controls preload="metadata" style="width:100%; max-height:40px;">
-            <source src="https://OmniCustom-project.github.io/OmniCustom/assets/audio/00068_audio.wav" type="audio/wav">
-          </audio>
-          <br>
-          <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00068_audio.wav" download style="font-size:11px; color:#0366d6; text-decoration:none;">
-            ⤓ Download WAV ~5s
-          </a>
-        </div>
+        <a href="https://OmniCustom-project.github.io/OmniCustom/assets/audio/00068_audio.wav" style="text-decoration: none;">
+          <div style="background: linear-gradient(135deg, #34b7f1 0%, #1e88e5 100%); color: white; padding: 12px 24px; border-radius: 8px; display: inline-block; font-weight: 500; min-width: 140px;">
+            🔊 Play Audio 1
+          </div>
+        </a>
       </td>
       <td style="line-height:1.6; vertical-align:middle; padding:16px; border:1px solid #ddd; font-size:13px; min-height:300px;">
         <div style="max-height:280px; overflow-y: auto; padding-right: 8px;">
@@ -163,20 +160,11 @@ bash inference.sh
         </div>
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <!-- 方法1：使用纯链接（最简单） -->
-        <div style="text-align: center;">
-          <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" style="text-decoration:none; color:#0366d6; font-weight:500;">
-            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 24px; border-radius: 8px; display: inline-block; margin: 8px 0;">
-              ▶️ Play Demo Video 1
-            </div>
-          </a>
-          <br>
-          <div style="margin-top: 8px; font-size: 12px; color: #666;">
-            <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" download style="color:#0366d6; text-decoration:none;">
-              ⤓ Download MP4
-            </a>
+        <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" style="text-decoration: none;">
+          <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 24px; border-radius: 8px; display: inline-block; font-weight: 500; min-width: 140px;">
+            ▶️ Play Video 1
           </div>
-        </div>
+        </a>
       </td>
     </tr>
     <tr>
@@ -185,15 +173,11 @@ bash inference.sh
         <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/images/ref_69.png" alt="Reference Image 2" style="max-height:200px; max-width:100%; object-fit: contain;">
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <div style="width:160px; margin:0 auto;">
-          <audio controls preload="metadata" style="width:100%; max-height:40px;">
-            <source src="https://OmniCustom-project.github.io/OmniCustom/assets/audio/00069_audio.wav" type="audio/wav">
-          </audio>
-          <br>
-          <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00069_audio.wav" download style="font-size:11px; color:#0366d6; text-decoration:none;">
-            ⤓ Download WAV ~5s
-          </a>
-        </div>
+        <a href="https://OmniCustom-project.github.io/OmniCustom/assets/audio/00069_audio.wav" style="text-decoration: none;">
+          <div style="background: linear-gradient(135deg, #34b7f1 0%, #1e88e5 100%); color: white; padding: 12px 24px; border-radius: 8px; display: inline-block; font-weight: 500; min-width: 140px;">
+            🔊 Play Audio 2
+          </div>
+        </a>
       </td>
       <td style="line-height:1.6; vertical-align:middle; padding:16px; border:1px solid #ddd; font-size:13px; min-height:300px;">
         <div style="max-height:280px; overflow-y: auto; padding-right: 8px;">
@@ -201,22 +185,11 @@ bash inference.sh
         </div>
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <!-- 方法2：使用图片按钮样式 -->
-        <div style="text-align: center;">
-          <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7">
-            <div style="background-color: #f6f8fa; border: 2px dashed #d0d7de; border-radius: 8px; padding: 16px; display: inline-block; min-width: 200px;">
-              <div style="font-size: 24px; margin-bottom: 8px;">🎬</div>
-              <div style="font-weight: 600; color: #24292f; margin-bottom: 4px;">Play Demo Video 2</div>
-              <div style="font-size: 11px; color: #57606a;">Click to watch in browser</div>
-            </div>
-          </a>
-          <div style="margin-top: 8px; font-size: 12px; color: #666;">
-            <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" download style="color:#0366d6; text-decoration:none; margin-right: 12px;">
-              ⤓ Download
-            </a>
-            <span style="color: #8b949e;">MP4 format</span>
+        <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" style="text-decoration: none;">
+          <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 24px; border-radius: 8px; display: inline-block; font-weight: 500; min-width: 140px;">
+            ▶️ Play Video 2
           </div>
-        </div>
+        </a>
       </td>
     </tr>
     <tr>
@@ -225,15 +198,11 @@ bash inference.sh
         <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/images/ref_70.png" alt="Reference Image 3" style="max-height:200px; max-width:100%; object-fit: contain;">
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <div style="width:160px; margin:0 auto;">
-          <audio controls preload="metadata" style="width:100%; max-height:40px;">
-            <source src="https://OmniCustom-project.github.io/OmniCustom/assets/audio/00070_audio.wav" type="audio/wav">
-          </audio>
-          <br>
-          <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00070_audio.wav" download style="font-size:11px; color:#0366d6; text-decoration:none;">
-            ⤓ Download WAV ~5s
-          </a>
-        </div>
+        <a href="https://OmniCustom-project.github.io/OmniCustom/assets/audio/00070_audio.wav" style="text-decoration: none;">
+          <div style="background: linear-gradient(135deg, #34b7f1 0%, #1e88e5 100%); color: white; padding: 12px 24px; border-radius: 8px; display: inline-block; font-weight: 500; min-width: 140px;">
+            🔊 Play Audio 3
+          </div>
+        </a>
       </td>
       <td style="line-height:1.6; vertical-align:middle; padding:16px; border:1px solid #ddd; font-size:13px; min-height:300px;">
         <div style="max-height:280px; overflow-y: auto; padding-right: 8px;">
@@ -241,41 +210,15 @@ bash inference.sh
         </div>
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <!-- 方法3：简洁链接 -->
-        <div style="text-align: center;">
-          <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" style="display: inline-block; text-decoration: none;">
-            <div style="display: flex; align-items: center; justify-content: center; background-color: #0969da; color: white; padding: 10px 20px; border-radius: 6px; font-weight: 500;">
-              <svg style="width: 16px; height: 16px; margin-right: 8px;" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-              </svg>
-              Play Demo Video 3
-            </div>
-          </a>
-          <div style="margin-top: 12px; font-size: 12px; color: #57606a;">
-            <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" download style="color:#0969da; text-decoration:none;">
-              <span style="background-color: #f6f8fa; padding: 4px 8px; border-radius: 4px; border: 1px solid #d0d7de;">
-                📥 Download Video
-              </span>
-            </a>
-            <div style="margin-top: 6px; font-size: 11px;">High quality MP4 • 5-10 seconds</div>
+        <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" style="text-decoration: none;">
+          <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 24px; border-radius: 8px; display: inline-block; font-weight: 500; min-width: 140px;">
+            ▶️ Play Video 3
           </div>
-        </div>
+        </a>
       </td>
     </tr>
   </tbody>
 </table>
-
-<!-- 提示用户替换链接 -->
-<div style="margin-top: 20px; padding: 12px; background-color: #f6f8fa; border-left: 4px solid #0969da; font-size: 13px; color: #24292f;">
-  <strong>🔗 链接替换说明：</strong> 
-  请为每个视频生成不同的GitHub附件链接，并替换上面的三个链接地址：
-  <ul style="margin-top: 8px; margin-bottom: 0;">
-    <li>Video 1: <code>https://github.com/user-attachments/assets/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</code></li>
-    <li>Video 2: <code>https://github.com/user-attachments/assets/yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy</code></li>
-    <li>Video 3: <code>https://github.com/user-attachments/assets/zzzzzzzz-zzzz-zzzz-zzzz-zzzzzzzzzzzz</code></li>
-  </ul>
-</div>
 
 
 Please see our project page(https://OmniCustom-project.github.io/page/) for better audio presentation.
