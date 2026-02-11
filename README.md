@@ -116,7 +116,6 @@ each_example_n_times: 1
 ##### Single GPU
 
 ```bash
-cd .
 CUDA_VISIBLE_DEVICES=0  infer.py --config-file ./configs/inference/inference_fusion.yaml
 ```
 
@@ -124,7 +123,7 @@ Or run:
 
 ```bash
 bash ./inference.sh
-
+```
 > 💡Note:
 > 
 > * `text_prompt` in `configs/inference/inference_fusion.yaml` can change examples for sync audio-video customization.
