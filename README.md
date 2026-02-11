@@ -14,7 +14,10 @@
 
 ## 🎥 Video
 
-https://github.com/user-attachments/assets/9fd12b40-41ab-4201-8667-8b333db1123d
+<video width="640" height="360" controls>
+  <source src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/videos/demo/demo.mp4" type="video/mp4">
+  你的浏览器不支持HTML5视频播放
+</video>
 
 ## 📖 Overview
 
