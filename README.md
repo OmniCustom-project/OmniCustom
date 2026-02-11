@@ -128,33 +128,45 @@ bash inference.sh
 
 ##### More examples
 
-<table width="100%" border="1" cellpadding="10" cellspacing="0" align="center">
+<table width="100%" border="1" cellpadding="12" cellspacing="0" align="center">
   <thead>
     <tr bgcolor="#f5f5f5">
-      <th>Reference Images</th>
-      <th>Reference Audios</th>
-      <th>Text prompts</th>
-      <th>Generated Videos (GIF)</th>
+      <th style="width:20%;">Reference Images</th>
+      <th style="width:20%;">Reference Audios</th>
+      <th style="width:30%;">Text prompts</th>
+      <th style="width:30%;">Generated Videos (GIF)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="assets/images/ref_68.png" alt="Reference Image 1" style="height:150px; width:auto;"></td>
-      <td align="center"><audio src="assets/audio/00068_audio.wav" controls style="width:200px;">Your browser does not support audio playback.</audio></td>
-      <td style="line-height:1.6; vertical-align:middle;">A man stands at the podium in OpenAI's luxurious conference room, behind him a massive electronic screen displays the company's glowing profit data. He grips the microphone firmly, gazes across the audience below, and announces in a steady tone: &amp;lt;S&amp;gt;The board wants to sell OpenAI to Zuckerberg, which is unacceptable.&amp;lt;E&amp;gt;</td>
-      <td align="center" style="vertical-align:middle;"><img src="assets/videos/demo/68.gif" alt="Generated Video 1" style="width:350px; max-width:100%;"></td>
+      <td align="center" style="vertical-align:middle;"><img src="assets/images/ref_68.png" alt="Reference Image 1" style="height:200px; width:auto;"></td>
+      <td align="center" style="vertical-align:middle;">
+        <audio src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00068_audio.wav" controls style="width:220px; height:40px;">
+          <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00068_audio.wav" target="_blank">Download Audio 68</a>
+        </audio>
+      </td>
+      <td style="line-height:1.8; vertical-align:middle; padding:0 10px;">A man stands at the podium in OpenAI's luxurious conference room, behind him a massive electronic screen displays the company's glowing profit data. He grips the microphone firmly, gazes across the audience below, and announces in a steady tone: &amp;lt;S&amp;gt;The board wants to sell OpenAI to Zuckerberg, which is unacceptable.&amp;lt;E&amp;gt;</td>
+      <td align="center" style="vertical-align:middle;"><img src="assets/videos/demo/68.gif" alt="Generated Video 1" style="width:500px; max-width:100%; height:auto;"></td>
     </tr>
     <tr>
-      <td align="center"><img src="assets/images/ref_69.png" alt="Reference Image 2" style="height:150px; width:auto;"></td>
-      <td align="center"><audio src="assets/audio/00069_audio.wav" controls style="width:200px;">Your browser does not support audio playback.</audio></td>
-      <td style="line-height:1.6; vertical-align:middle;">A woman stands before the iconic Rockefeller Center Christmas Tree, its thousands of lights reflecting in her eyes as snow begins to fall gently around her. Wearing a tartan scarf and holding a cup of steaming cocoa, she brings her mittened hands together and speaks softly into the frosty air: &amp;lt;S&amp;gt;May the spirit of Christmas fill your heart throughout the coming year.&amp;lt;E&amp;gt;</td>
-      <td align="center" style="vertical-align:middle;"><img src="assets/videos/demo/69.gif" alt="Generated Video 2" style="width:350px; max-width:100%;"></td>
+      <td align="center" style="vertical-align:middle;"><img src="assets/images/ref_69.png" alt="Reference Image 2" style="height:200px; width:auto;"></td>
+      <td align="center" style="vertical-align:middle;">
+        <audio src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00069_audio.wav" controls style="width:220px; height:40px;">
+          <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00069_audio.wav" target="_blank">Download Audio 69</a>
+        </audio>
+      </td>
+      <td style="line-height:1.8; vertical-align:middle; padding:0 10px;">A woman stands before the iconic Rockefeller Center Christmas Tree, its thousands of lights reflecting in her eyes as snow begins to fall gently around her. Wearing a tartan scarf and holding a cup of steaming cocoa, she brings her mittened hands together and speaks softly into the frosty air: &amp;lt;S&amp;gt;May the spirit of Christmas fill your heart throughout the coming year.&amp;lt;E&amp;gt;</td>
+      <td align="center" style="vertical-align:middle;"><img src="assets/videos/demo/69.gif" alt="Generated Video 2" style="width:500px; max-width:100%; height:auto;"></td>
     </tr>
     <tr>
-      <td align="center"><img src="assets/images/ref_70.png" alt="Reference Image 3" style="height:150px; width:auto;"></td>
-      <td align="center"><audio src="assets/audio/00070_audio.wav" controls style="width:200px;">Your browser does not support audio playback.</audio></td>
-      <td style="line-height:1.6; vertical-align:middle;">A man stands on a bustling street in Shanghai, the air thick with the festive atmosphere of Chinese Lunar New Year, with numerous red lanterns hanging in clusters overhead. He blends seamlessly into the vibrant surroundings, then clasps his hands together in a traditional gesture of greeting and says warmly: &amp;lt;S&amp;gt;Wishing everyone a Happy New Year and joy every single day.&amp;lt;E&amp;gt;</td>
-      <td align="center" style="vertical-align:middle;"><img src="assets/videos/demo/70.gif" alt="Generated Video 3" style="width:350px; max-width:100%;"></td>
+      <td align="center" style="vertical-align:middle;"><img src="assets/images/ref_70.png" alt="Reference Image 3" style="height:200px; width:auto;"></td>
+      <td align="center" style="vertical-align:middle;">
+        <audio src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00070_audio.wav" controls style="width:220px; height:40px;">
+          <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00070_audio.wav" target="_blank">Download Audio 70</a>
+        </audio>
+      </td>
+      <td style="line-height:1.8; vertical-align:middle; padding:0 10px;">A man stands on a bustling street in Shanghai, the air thick with the festive atmosphere of Chinese Lunar New Year, with numerous red lanterns hanging in clusters overhead. He blends seamlessly into the vibrant surroundings, then clasps his hands together in a traditional gesture of greeting and says warmly: &amp;lt;S&amp;gt;Wishing everyone a Happy New Year and joy every single day.&amp;lt;E&amp;gt;</td>
+      <td align="center" style="vertical-align:middle;"><img src="assets/videos/demo/70.gif" alt="Generated Video 3" style="width:500px; max-width:100%; height:auto;"></td>
     </tr>
   </tbody>
 </table>
