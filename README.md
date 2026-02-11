@@ -148,7 +148,7 @@ bash inference.sh
         <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/images/ref_68.png" alt="Reference Image 1" style="max-height:200px; max-width:100%; object-fit: contain;">
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <a href="https://OmniCustom-project.github.io/OmniCustom/assets/audio/00068_audio.wav" style="text-decoration: none;">
+        <a href="https://github.com/user-attachments/files/25230290/00068_audio.wav" style="text-decoration: none;">
           <div style="background: linear-gradient(135deg, #34b7f1 0%, #1e88e5 100%); color: white; padding: 12px 24px; border-radius: 8px; display: inline-block; font-weight: 500; min-width: 140px;">
             🔊 Play Audio 1
           </div>
@@ -185,7 +185,7 @@ bash inference.sh
         </div>
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" style="text-decoration: none;">
+        <a href="https://github.com/user-attachments/assets/1ba22392-705c-42c7-a00b-073925c37b37" style="text-decoration: none;">
           <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 24px; border-radius: 8px; display: inline-block; font-weight: 500; min-width: 140px;">
             ▶️ Play Video 2
           </div>
@@ -210,7 +210,7 @@ bash inference.sh
         </div>
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" style="text-decoration: none;">
+        <a href="https://github.com/user-attachments/assets/1925cc0b-1ab5-4ce7-b6c9-33a64152d195" style="text-decoration: none;">
           <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 24px; border-radius: 8px; display: inline-block; font-weight: 500; min-width: 140px;">
             ▶️ Play Video 3
           </div>
