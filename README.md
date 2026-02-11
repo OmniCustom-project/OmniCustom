@@ -33,7 +33,7 @@ Given a reference image $I^{r}$ and a reference audio $A^{r}$, our **OmniCustom*
 ##### 1.Clone the repo:
 
 ```sh
-git clone https://github.com/Phantom-video/Phantom.git
+git clone https://github.com/OmniCustom-project/OmniCustom.git
 cd OmniCustom
 ```
 
@@ -228,7 +228,7 @@ We would like to thank the following projects:
 
 **[InsightFace](https://github.com/deepinsight/insightface)**: 512-D face embeddings are extracted using InsightFace.
 
-**[MMAudio](https://github.com/hkchengrex/MMAudio)**: Audio vae is provided by MMAudio.
+**[MMAudio](https://github.com/hkchengrex/MMAudio)**: Audio VAE is provided by MMAudio.
 
 **[Wan2.2](https://github.com/Wan-Video/Wan2.2)**: The video branch is initialized from the Wan2.2 repository.
 
