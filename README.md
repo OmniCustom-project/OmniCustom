@@ -126,7 +126,7 @@ bash ./inference.sh
 ```
 > 💡Note:
 > 
-> * `text_prompt` in `configs/inference/inference_fusion.yaml` can change examples for sync audio-video customization.
+> * `text_prompt` in `configs/inference/inference_fusion.yaml` can change examples for sync audio-video customization. `text_prompt` supports a CSV file, which contains text_prompt,image_path,ip_image_path, and ip_audio_path.
 > * Those results without any customization and those with only identity customization will be saved to the result folder.
 > * When the generated video is unsatisfactory, the most straightforward solution is to try changing the `seed` in `configs/inference/inference_fusion.yaml`.
 > * The Peak VRAM Required is 80 GB in a single GPU.
