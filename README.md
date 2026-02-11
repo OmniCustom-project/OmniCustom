@@ -124,6 +124,8 @@ bash inference.sh
 > * When the generated video is unsatisfactory, the most straightforward solution is to try changing the `seed` in `configs/inference/inference_fusion.yaml`.
 > * The Peak VRAM Required is 80 GB in a single GPU.
 
+
+
 ##### More examples
 
 <table style="width: 100%; border-collapse: collapse; text-align: center; border: 1px solid #ccc; margin: 10px 0;">
