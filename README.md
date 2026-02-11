@@ -135,35 +135,46 @@ bash inference.sh
       <th style="width:18%; padding:16px; border:1px solid #ddd; font-size:14px;">Reference Images</th>
       <th style="width:18%; padding:16px; border:1px solid #ddd; font-size:14px;">Reference Audios</th>
       <th style="width:24%; padding:16px; border:1px solid #ddd; font-size:14px;">Text prompts</th>
-      <th style="width:40%; padding:16px; border:1px solid #ddd; font-size:14px;">Generated Videos (GIF)</th>
+      <th style="width:40%; padding:16px; border:1px solid #ddd; font-size:14px;">Generated Videos (MP4)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <!-- 行1：增加min-height确保足够高度 -->
+      <!-- 行1 -->
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
         <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/images/ref_68.png" alt="Reference Image 1" style="max-height:200px; max-width:100%; object-fit: contain;">
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
         <div style="width:160px; margin:0 auto;">
           <audio controls preload="metadata" style="width:100%; max-height:40px;">
-            <source src="https://OmniCustom-project.github.io/OmniCustom/assets/audio/00070_audio.wav" type="audio/wav">
+            <source src="https://OmniCustom-project.github.io/OmniCustom/assets/audio/00068_audio.wav" type="audio/wav">
           </audio>
           <br>
-          <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00070_audio.wav" download style="font-size:11px; color:#0366d6; text-decoration:none;">
+          <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00068_audio.wav" download style="font-size:11px; color:#0366d6; text-decoration:none;">
             ⤓ Download WAV ~5s
           </a>
         </div>
       </td>
-      <!-- 文本列：减小宽度，但保持可读性 -->
       <td style="line-height:1.6; vertical-align:middle; padding:16px; border:1px solid #ddd; font-size:13px; min-height:300px;">
         <div style="max-height:280px; overflow-y: auto; padding-right: 8px;">
           A man stands at the podium in OpenAI's luxurious conference room, behind him a massive electronic screen displays the company's glowing profit data. He grips the microphone firmly, gazes across the audience below, and announces in a steady tone: &lt;S&gt;The board wants to sell OpenAI to Zuckerberg, which is unacceptable.&lt;E&gt;
         </div>
       </td>
-      <!-- GIF列：最大宽度，充分利用空间 -->
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/videos/demo/68.gif" alt="Generated Video 1" style="width:100%; max-width:800px; height:auto; min-height:250px; object-fit: contain;">
+        <!-- 视频1：使用相同的占位链接 -->
+        <div style="width:100%; max-width:800px; margin:0 auto;">
+          <video controls style="width:100%; max-height:500px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+            <source src="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div style="margin-top:8px; font-size:12px; color:#666;">
+            <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" download style="color:#0366d6; text-decoration:none;">
+              ⤓ Download MP4
+            </a>
+            <span style="margin:0 8px;">•</span>
+            <span>Autoplay disabled for better UX</span>
+          </div>
+        </div>
       </td>
     </tr>
     <tr>
@@ -188,7 +199,20 @@ bash inference.sh
         </div>
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/videos/demo/69.gif" alt="Generated Video 2" style="width:100%; max-width:800px; height:auto; min-height:250px; object-fit: contain;">
+        <!-- 视频2：使用相同的占位链接 -->
+        <div style="width:100%; max-width:800px; margin:0 auto;">
+          <video controls style="width:100%; max-height:500px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+            <source src="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div style="margin-top:8px; font-size:12px; color:#666;">
+            <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" download style="color:#0366d6; text-decoration:none;">
+              ⤓ Download MP4
+            </a>
+            <span style="margin:0 8px;">•</span>
+            <span>Click play to watch</span>
+          </div>
+        </div>
       </td>
     </tr>
     <tr>
@@ -212,12 +236,35 @@ bash inference.sh
           A man stands on a bustling street in Shanghai, the air thick with the festive atmosphere of Chinese Lunar New Year, with numerous red lanterns hanging in clusters overhead. He blends seamlessly into the vibrant surroundings, then clasps his hands together in a traditional gesture of greeting and says warmly: &lt;S&gt;Wishing everyone a Happy New Year and joy every single day.&lt;E&gt;
         </div>
       </td>
-      <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:600px;">
-        <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/videos/demo/70.gif" alt="Generated Video 3" style="width:100%; max-width:800px; height:auto; min-height:250px; object-fit: contain;">
+      <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
+        <!-- 视频3：使用相同的占位链接 -->
+        <div style="width:100%; max-width:800px; margin:0 auto;">
+          <video controls style="width:100%; max-height:500px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+            <source src="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div style="margin-top:8px; font-size:12px; color:#666;">
+            <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" download style="color:#0366d6; text-decoration:none;">
+              ⤓ Download MP4
+            </a>
+            <span style="margin:0 8px;">•</span>
+            <span>Full HD quality</span>
+          </div>
+        </div>
       </td>
     </tr>
   </tbody>
 </table>
+
+<!-- 提示：实际使用时需要替换为真实的GitHub附件链接 -->
+<div style="margin-top:20px; padding:12px; background-color:#f8f9fa; border-left:4px solid #0366d6; font-size:13px;">
+  <strong>注意：</strong>所有视频目前使用相同的占位链接。实际使用时，请为每个视频单独上传并替换为对应的GitHub附件链接：
+  <ol style="margin:8px 0 0 20px;">
+    <li>Video 1: <code>https://github.com/user-attachments/assets/xxx-xxx-xxx-xxx</code></li>
+    <li>Video 2: <code>https://github.com/user-attachments/assets/yyy-yyy-yyy-yyy</code></li>
+    <li>Video 3: <code>https://github.com/user-attachments/assets/zzz-zzz-zzz-zzz</code></li>
+  </ol>
+</div>
 
 Please see our project page(https://OmniCustom-project.github.io/page/) for better audio presentation.
 
