@@ -208,8 +208,8 @@ bash inference.sh
           A man stands on a bustling street in Shanghai, the air thick with the festive atmosphere of Chinese Lunar New Year, with numerous red lanterns hanging in clusters overhead. He blends seamlessly into the vibrant surroundings, then clasps his hands together in a traditional gesture of greeting and says warmly: &lt;S&gt;Wishing everyone a Happy New Year and joy every single day.&lt;E&gt;
         </div>
       </td>
-      <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/videos/demo/70.mp4" alt="Generated Video 3" style="width:100%; max-width:800px; height:auto; min-height:250px; object-fit: contain;">
+      <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:600px;">
+        <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/videos/demo/70.gif" alt="Generated Video 3" style="width:100%; max-width:800px; height:auto; min-height:250px; object-fit: contain;">
       </td>
     </tr>
   </tbody>
