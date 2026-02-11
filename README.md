@@ -116,13 +116,13 @@ each_example_n_times: 1
 ##### Single GPU
 
 ```bash
-CUDA_VISIBLE_DEVICES=0  infer.py --config-file ./configs/inference/inference_fusion.yaml
+bash ./inference.sh
 ```
 
 Or run:
 
 ```bash
-bash ./inference.sh
+CUDA_VISIBLE_DEVICES=0  infer.py --config-file ./configs/inference/inference_fusion.yaml
 ```
 > 💡Note:
 > 
