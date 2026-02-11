@@ -15,7 +15,7 @@
 ## 🎥 Video
 
 
-https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/videos/demo/demo.mp4
+https://github.com/user-attachments/assets/5aa2b997-963d-4602-abe6-5b6995461e34
 
 
 ## 📖 Overview
