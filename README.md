@@ -147,10 +147,10 @@ bash inference.sh
         <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/images/ref_68.png" alt="Reference Image 1" style="max-height:200px; max-width:100%; object-fit: contain;">
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <video controls width="240" height="40" style="border-radius: 8px; background-color: #f6f8fa;">
-          <source src="https://github.com/user-attachments/assets/281b285a-80bc-482e-a62b-6f1cce389c6a" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <!-- 音频：显示为播放按钮，点击在新窗口播放 -->
+        <a href="https://github.com/user-attachments/assets/281b285a-80bc-482e-a62b-6f1cce389c6a">
+          <img src="https://img.shields.io/badge/🔊-Play%20Audio%201-1e88e5?style=for-the-badge" alt="Play Audio 1">
+        </a>
       </td>
       <td style="line-height:1.6; vertical-align:middle; padding:16px; border:1px solid #ddd; font-size:13px; min-height:300px;">
         <div style="max-height:280px; overflow-y: auto; padding-right: 8px;">
@@ -158,10 +158,10 @@ bash inference.sh
         </div>
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <video controls width="320" height="240" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-          <source src="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <!-- 视频：显示缩略图+播放按钮，点击在新窗口播放 -->
+        <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7">
+          <img src="https://img.shields.io/badge/▶️-Watch%20Video%201-764ba2?style=for-the-badge" alt="Watch Video 1">
+        </a>
       </td>
     </tr>
     <tr>
@@ -170,10 +170,9 @@ bash inference.sh
         <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/images/ref_69.png" alt="Reference Image 2" style="max-height:200px; max-width:100%; object-fit: contain;">
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <video controls width="240" height="40" style="border-radius: 8px; background-color: #f6f8fa;">
-          <source src="https://github.com/user-attachments/assets/281b285a-80bc-482e-a62b-6f1cce389c6a" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <a href="https://github.com/user-attachments/assets/281b285a-80bc-482e-a62b-6f1cce389c6a">
+          <img src="https://img.shields.io/badge/🔊-Play%20Audio%202-1e88e5?style=for-the-badge" alt="Play Audio 2">
+        </a>
       </td>
       <td style="line-height:1.6; vertical-align:middle; padding:16px; border:1px solid #ddd; font-size:13px; min-height:300px;">
         <div style="max-height:280px; overflow-y: auto; padding-right: 8px;">
@@ -181,10 +180,9 @@ bash inference.sh
         </div>
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <video controls width="320" height="240" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-          <source src="https://github.com/user-attachments/assets/1ba22392-705c-42c7-a00b-073925c37b37" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <a href="https://github.com/user-attachments/assets/1ba22392-705c-42c7-a00b-073925c37b37">
+          <img src="https://img.shields.io/badge/▶️-Watch%20Video%202-764ba2?style=for-the-badge" alt="Watch Video 2">
+        </a>
       </td>
     </tr>
     <tr>
@@ -193,10 +191,9 @@ bash inference.sh
         <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/images/ref_70.png" alt="Reference Image 3" style="max-height:200px; max-width:100%; object-fit: contain;">
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <video controls width="240" height="40" style="border-radius: 8px; background-color: #f6f8fa;">
-          <source src="https://github.com/user-attachments/assets/281b285a-80bc-482e-a62b-6f1cce389c6a" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <a href="https://github.com/user-attachments/assets/281b285a-80bc-482e-a62b-6f1cce389c6a">
+          <img src="https://img.shields.io/badge/🔊-Play%20Audio%203-1e88e5?style=for-the-badge" alt="Play Audio 3">
+        </a>
       </td>
       <td style="line-height:1.6; vertical-align:middle; padding:16px; border:1px solid #ddd; font-size:13px; min-height:300px;">
         <div style="max-height:280px; overflow-y: auto; padding-right: 8px;">
@@ -204,10 +201,9 @@ bash inference.sh
         </div>
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <video controls width="320" height="240" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-          <source src="https://github.com/user-attachments/assets/1925cc0b-1ab5-4ce7-b6c9-33a64152d195" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <a href="https://github.com/user-attachments/assets/1925cc0b-1ab5-4ce7-b6c9-33a64152d195">
+          <img src="https://img.shields.io/badge/▶️-Watch%20Video%203-764ba2?style=for-the-badge" alt="Watch Video 3">
+        </a>
       </td>
     </tr>
   </tbody>
