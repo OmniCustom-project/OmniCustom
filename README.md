@@ -170,7 +170,7 @@ bash inference.sh
         <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/images/ref_69.png" alt="Reference Image 2" style="max-height:200px; max-width:100%; object-fit: contain;">
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <a href="https://github.com/user-attachments/assets/281b285a-80bc-482e-a62b-6f1cce389c6a">
+        <a href="https://github.com/user-attachments/assets/a6294f38-ba3a-449c-b8e3-8fce181124fe">
           <img src="https://img.shields.io/badge/🔊-Play%20Audio%202-1e88e5?style=for-the-badge" alt="Play Audio 2">
         </a>
       </td>
@@ -191,7 +191,7 @@ bash inference.sh
         <img src="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/images/ref_70.png" alt="Reference Image 3" style="max-height:200px; max-width:100%; object-fit: contain;">
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <a href="https://github.com/user-attachments/assets/281b285a-80bc-482e-a62b-6f1cce389c6a">
+        <a href="https://github.com/user-attachments/assets/d7399bc5-60cb-4d6e-9af2-06306694e4f2">
           <img src="https://img.shields.io/badge/🔊-Play%20Audio%203-1e88e5?style=for-the-badge" alt="Play Audio 3">
         </a>
       </td>
