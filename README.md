@@ -14,24 +14,8 @@
 
 ## 🎥 Video
 
-<!-- 适配 README 排版的视频播放代码 -->
-<div align="center">
-  <video width="800" controls style="max-width:100%; border-radius: 8px; margin: 10px 0;">
-    <source src="https://cdn.jsdelivr.net/gh/OmniCustom-project/OmniCustom@main/assets/videos/demo/demo.mp4" type="video/mp4">
-    <!-- 降级提示 -->
-    你的浏览器不支持 HTML5 视频播放，请点击链接下载：
-    <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/videos/demo/demo.mp4" download>demo.mp4</a>
-  </video>
-</div>
-
-<!-- （可选）自动播放+循环+静音版（演示更友好） -->
-<div align="center">
-  <video width="800" autoplay loop muted controls style="max-width:100%; border-radius: 8px; margin: 10px 0;">
-    <source src="https://cdn.jsdelivr.net/gh/OmniCustom-project/OmniCustom@main/assets/videos/demo/demo.mp4" type="video/mp4">
-    你的浏览器不支持 HTML5 视频播放，请点击链接下载：
-    <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/videos/demo/demo.mp4" download>demo.mp4</a>
-  </video>
-</div>
+### 演示视频
+https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/videos/demo/demo.mp4
 
 
 ## 📖 Overview
