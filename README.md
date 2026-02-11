@@ -14,8 +14,21 @@
 
 ## 🎥 Video
 
-### 演示视频
-https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/videos/demo/demo.mp4
+
+<div align="center">
+  <!-- 核心：用 jsDelivr CDN 链接 + 最简 HTML 结构，避开 GitHub 渲染拦截 -->
+  <video 
+    width="800" 
+    height="450" 
+    controls 
+    src="https://cdn.jsdelivr.net/gh/OmniCustom-project/OmniCustom@main/assets/videos/demo/demo.mp4"
+    style="max-width:100%; border: none; outline: none;">
+    
+    <!-- 降级方案：如果播放器不显示，显示可点击的视频链接 -->
+    无法加载视频？点击播放：
+    <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/videos/demo/demo.mp4" target="_blank">demo.mp4</a>
+  </video>
+</div>
 
 
 ## 📖 Overview
