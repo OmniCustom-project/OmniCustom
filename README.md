@@ -146,11 +146,11 @@ bash inference.sh
         <!-- 改用 GitHub 兼容的音频嵌入方案 -->
         <div style="width:180px; margin:0 auto;">
           <audio controls preload="metadata">
-            <source src="https://OmniCustom-project.github.io/OmniCustom/assets/audio/00068_audio.mp3" type="audio/mpeg">
+            <source src="https://OmniCustom-project.github.io/OmniCustom/assets/audio/00070_audio.wav" type="audio/wav">
           </audio>
           <br>
-          <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00068_audio.mp3" download style="font-size:12px; color:#0366d6; text-decoration:none;">
-            ⤓ Download MP3 ~5s
+          <a href="https://raw.githubusercontent.com/OmniCustom-project/OmniCustom/main/assets/audio/00070_audio.wav" download style="font-size:12px; color:#0366d6; text-decoration:none;">
+            ⤓ Download WAV ~5s
           </a>
         </div>
       </td>
