@@ -210,7 +210,6 @@ bash inference.sh
 </table>
 
 
-Please see our project page(https://OmniCustom-project.github.io/page/) for better audio presentation.
 
 ## 📑 Todo List
 
