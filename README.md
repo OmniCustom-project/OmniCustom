@@ -128,6 +128,8 @@ bash inference.sh
 
 
 
+
+
 ##### More Results
 <table width="100%" border="1" cellpadding="20" cellspacing="0" align="center" style="border-collapse: collapse; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
   <thead>
@@ -135,7 +137,7 @@ bash inference.sh
       <th style="width:18%; padding:16px; border:1px solid #ddd; font-size:14px;">Reference Images</th>
       <th style="width:18%; padding:16px; border:1px solid #ddd; font-size:14px;">Reference Audios</th>
       <th style="width:24%; padding:16px; border:1px solid #ddd; font-size:14px;">Text prompts</th>
-      <th style="width:40%; padding:16px; border:1px solid #ddd; font-size:14px;">Generated Videos (MP4)</th>
+      <th style="width:40%; padding:16px; border:1px solid #ddd; font-size:14px;">Generated Videos</th>
     </tr>
   </thead>
   <tbody>
@@ -161,18 +163,18 @@ bash inference.sh
         </div>
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <!-- 视频1：使用相同的占位链接 -->
-        <div style="width:100%; max-width:800px; margin:0 auto;">
-          <video controls style="width:100%; max-height:500px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
-            <source src="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <div style="margin-top:8px; font-size:12px; color:#666;">
+        <!-- 方法1：使用纯链接（最简单） -->
+        <div style="text-align: center;">
+          <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" style="text-decoration:none; color:#0366d6; font-weight:500;">
+            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 24px; border-radius: 8px; display: inline-block; margin: 8px 0;">
+              ▶️ Play Demo Video 1
+            </div>
+          </a>
+          <br>
+          <div style="margin-top: 8px; font-size: 12px; color: #666;">
             <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" download style="color:#0366d6; text-decoration:none;">
               ⤓ Download MP4
             </a>
-            <span style="margin:0 8px;">•</span>
-            <span>Autoplay disabled for better UX</span>
           </div>
         </div>
       </td>
@@ -199,18 +201,20 @@ bash inference.sh
         </div>
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <!-- 视频2：使用相同的占位链接 -->
-        <div style="width:100%; max-width:800px; margin:0 auto;">
-          <video controls style="width:100%; max-height:500px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
-            <source src="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <div style="margin-top:8px; font-size:12px; color:#666;">
-            <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" download style="color:#0366d6; text-decoration:none;">
-              ⤓ Download MP4
+        <!-- 方法2：使用图片按钮样式 -->
+        <div style="text-align: center;">
+          <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7">
+            <div style="background-color: #f6f8fa; border: 2px dashed #d0d7de; border-radius: 8px; padding: 16px; display: inline-block; min-width: 200px;">
+              <div style="font-size: 24px; margin-bottom: 8px;">🎬</div>
+              <div style="font-weight: 600; color: #24292f; margin-bottom: 4px;">Play Demo Video 2</div>
+              <div style="font-size: 11px; color: #57606a;">Click to watch in browser</div>
+            </div>
+          </a>
+          <div style="margin-top: 8px; font-size: 12px; color: #666;">
+            <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" download style="color:#0366d6; text-decoration:none; margin-right: 12px;">
+              ⤓ Download
             </a>
-            <span style="margin:0 8px;">•</span>
-            <span>Click play to watch</span>
+            <span style="color: #8b949e;">MP4 format</span>
           </div>
         </div>
       </td>
@@ -237,18 +241,24 @@ bash inference.sh
         </div>
       </td>
       <td align="center" style="vertical-align:middle; padding:16px; border:1px solid #ddd; min-height:300px;">
-        <!-- 视频3：使用相同的占位链接 -->
-        <div style="width:100%; max-width:800px; margin:0 auto;">
-          <video controls style="width:100%; max-height:500px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
-            <source src="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <div style="margin-top:8px; font-size:12px; color:#666;">
-            <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" download style="color:#0366d6; text-decoration:none;">
-              ⤓ Download MP4
+        <!-- 方法3：简洁链接 -->
+        <div style="text-align: center;">
+          <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" style="display: inline-block; text-decoration: none;">
+            <div style="display: flex; align-items: center; justify-content: center; background-color: #0969da; color: white; padding: 10px 20px; border-radius: 6px; font-weight: 500;">
+              <svg style="width: 16px; height: 16px; margin-right: 8px;" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+              </svg>
+              Play Demo Video 3
+            </div>
+          </a>
+          <div style="margin-top: 12px; font-size: 12px; color: #57606a;">
+            <a href="https://github.com/user-attachments/assets/5472ec3d-57bc-45b3-a921-7913d0bd8bb7" download style="color:#0969da; text-decoration:none;">
+              <span style="background-color: #f6f8fa; padding: 4px 8px; border-radius: 4px; border: 1px solid #d0d7de;">
+                📥 Download Video
+              </span>
             </a>
-            <span style="margin:0 8px;">•</span>
-            <span>Full HD quality</span>
+            <div style="margin-top: 6px; font-size: 11px;">High quality MP4 • 5-10 seconds</div>
           </div>
         </div>
       </td>
@@ -256,15 +266,17 @@ bash inference.sh
   </tbody>
 </table>
 
-<!-- 提示：实际使用时需要替换为真实的GitHub附件链接 -->
-<div style="margin-top:20px; padding:12px; background-color:#f8f9fa; border-left:4px solid #0366d6; font-size:13px;">
-  <strong>注意：</strong>所有视频目前使用相同的占位链接。实际使用时，请为每个视频单独上传并替换为对应的GitHub附件链接：
-  <ol style="margin:8px 0 0 20px;">
-    <li>Video 1: <code>https://github.com/user-attachments/assets/xxx-xxx-xxx-xxx</code></li>
-    <li>Video 2: <code>https://github.com/user-attachments/assets/yyy-yyy-yyy-yyy</code></li>
-    <li>Video 3: <code>https://github.com/user-attachments/assets/zzz-zzz-zzz-zzz</code></li>
-  </ol>
+<!-- 提示用户替换链接 -->
+<div style="margin-top: 20px; padding: 12px; background-color: #f6f8fa; border-left: 4px solid #0969da; font-size: 13px; color: #24292f;">
+  <strong>🔗 链接替换说明：</strong> 
+  请为每个视频生成不同的GitHub附件链接，并替换上面的三个链接地址：
+  <ul style="margin-top: 8px; margin-bottom: 0;">
+    <li>Video 1: <code>https://github.com/user-attachments/assets/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</code></li>
+    <li>Video 2: <code>https://github.com/user-attachments/assets/yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy</code></li>
+    <li>Video 3: <code>https://github.com/user-attachments/assets/zzzzzzzz-zzzz-zzzz-zzzz-zzzzzzzzzzzz</code></li>
+  </ul>
 </div>
+
 
 Please see our project page(https://OmniCustom-project.github.io/page/) for better audio presentation.
 
