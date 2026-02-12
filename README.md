@@ -67,7 +67,7 @@ python3 download_weights.py --output-dir ./ckpts
 |InsightFace | 🤗 [Huggingface](https://huggingface.co/Omni1307/OmniCustom/tree/main/ckpts/InsightFace) | face embedding extractor
 |LivePortrait | 🤗 [Huggingface](https://huggingface.co/Omni1307/OmniCustom/tree/main/ckpts/LivePortrait) | crop reference image
 
-Then, please download the model of our OmniCustom, Naturalspeech 3, InsightFace, and LivePortrait from Huggingface, and put them into `ckpts`. Here, we provide a unified download command to download these four models from Huggingface.
+Then, please download the model of our OmniCustom, Naturalspeech 3, InsightFace, and LivePortrait from Huggingface, and put them into `ckpts`. Here, we provide a unified command to download these four models from Huggingface.
 
 ```sh
 pip install "huggingface_hub[cli]"
