@@ -76,9 +76,9 @@ huggingface-cli download Omni1307/OmniCustom \
 ```
 
 
-The final structure of the ckpts directory should be:
+The final structure of the `ckpts` directory should be:
 ```bash
-# ckpts 
+# OmniCustom/ckpts 
 ckpts/
 ├── InsightFace/
 ├── MMAudio/
