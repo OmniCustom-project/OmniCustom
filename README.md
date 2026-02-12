@@ -53,19 +53,21 @@ pip install flash-attn --no-build-isolation
 
 ### Model Download
 
-| Models       | Download Link                                                                                                                                           |    Notes                      |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| OmniCustom models      | 🤗 [Huggingface](https://huggingface.co/bytedance-research/Phantom/blob/main/Phantom-Wan-1.3B.pth)   | 1.9G
-| Naturalspeech 3 | 🤗 [Huggingface](https://huggingface.co/bytedance-research/Phantom/tree/main) | timbre embedding extractor
-|InsightFace | 🤗 [Huggingface](https://huggingface.co/bytedance-research/Phantom/tree/main) | face embedding extractor
-
-First you need to download the original model of OVI, Wan2.2-TI2V-5B, and MMAudio. You can download them using `download_weights.py`, and put them into `ckpts`:
+First, you need to download the original model of OVI, Wan2.2-TI2V-5B, and MMAudio. You can download them using `download_weights.py`, and put them into `ckpts`:
 
 ```sh
 python3 download_weights.py --output-dir ./ckpts
 ```
 
-Then download the model of our OmniCustom, Naturalspeech 3, InsightFace from Huggingface:
+Then, please download the model of our OmniCustom, Naturalspeech 3, InsightFace, and LivePortrait from Huggingface:
+
+| Models       | Download Link                                                                                                                                           |    Notes                      |
+|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| OmniCustom models      | 🤗 [Huggingface](https://huggingface.co/Omni1307/OmniCustom/blob/main/ckpts/step-92000.safetensors)   | 1.9G
+| Naturalspeech 3 | 🤗 [Huggingface](https://huggingface.co/Omni1307/OmniCustom/tree/main/ckpts/naturalspeech3_facodec) | timbre embedding extractor
+|InsightFace | 🤗 [Huggingface](https://huggingface.co/Omni1307/OmniCustom/tree/main/ckpts/InsightFace) | face embedding extractor
+|LivePortrait | 🤗 [Huggingface](https://huggingface.co/Omni1307/OmniCustom/tree/main/ckpts/LivePortrait) | crop reference image
+
 
 ```sh
 pip install "huggingface_hub[cli]"
@@ -81,6 +83,7 @@ The final structure of the `ckpts` directory should be:
 # OmniCustom/ckpts 
 ckpts/
 ├── InsightFace/
+├── LivePortrait/
 ├── MMAudio/
 ├── naturalspeech3_facodec/
 ├── Ovi/
