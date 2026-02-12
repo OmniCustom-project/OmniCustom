@@ -11,12 +11,12 @@ from .base_config import PrintableConfig, make_abs_path
 
 @dataclass(repr=False)  # use repr from PrintableConfig
 class CropConfig(PrintableConfig):
-    insightface_root: str = "/inspire/hdd/project/qproject-assement/zhangkaipeng-24043/mm1/CloneMyFaceCloneMyVoice/LivePortrait/pretrained_weights/insightface"
-    landmark_ckpt_path: str = "/inspire/hdd/project/qproject-assement/zhangkaipeng-24043/mm1/CloneMyFaceCloneMyVoice/LivePortrait/pretrained_weights/liveportrait/landmark.onnx"
+    insightface_root: str = "./ckpts/LivePortrait/pretrained_weights/insightface"
+    landmark_ckpt_path: str = "./ckpts/LivePortrait/pretrained_weights/liveportrait/landmark.onnx"
     xpose_config_file_path: str = make_abs_path("./dependencies/XPose/config_model/UniPose_SwinT.py")
     xpose_embedding_cache_path: str = make_abs_path('./resources/clip_embedding')
 
-    xpose_ckpt_path: str = "/inspire/hdd/project/qproject-assement/zhangkaipeng-24043/mm1/CloneMyFaceCloneMyVoice/LivePortrait/pretrained_weights/liveportrait_animals/xpose.pth"
+    xpose_ckpt_path: str = "./ckpts/LivePortrait/pretrained_weights/liveportrait_animals/xpose.pth"
     flag_force_cpu: bool = False  # force cpu inference, WIP
     det_thresh: float = 0.5 # detection threshold
     ########## source image or video cropping option ##########
