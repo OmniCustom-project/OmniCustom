@@ -71,7 +71,7 @@ Then download the model of our OmniCustom, Naturalspeech 3, InsightFace from Hug
 pip install "huggingface_hub[cli]"
 huggingface-cli download Omni1307/OmniCustom \
   --include "ckpts/**" \
-  --local-dir ./ckpts \
+  --local-dir ./ \
   --local-dir-use-symlinks False  
 ```
 
