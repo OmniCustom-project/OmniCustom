@@ -82,10 +82,10 @@ The final structure of the `ckpts` directory should be:
 ckpts/
 ├── InsightFace/
 ├── MMAudio/
-├── Ovi/
-├── Wan2.2-TI2V-5B/
 ├── naturalspeech3_facodec/
-└── step-92000.safetensors
+├── Ovi/
+├── step-92000.safetensors
+└── Wan2.2-TI2V-5B/
 ```
 
 
