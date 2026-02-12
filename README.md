@@ -3,7 +3,7 @@
 <div align="center">
 
 [![project page](https://img.shields.io/badge/Project_page-More_visualizations-green)](https://OmniCustom-project.github.io/page/)&nbsp;
-<a href="https://huggingface.co/bytedance-research/Phantom"><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Hugging%20Face&message=Model&color=orange"></a>
+<a href="https://huggingface.co/Omni1307/OmniCustom"><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Hugging%20Face&message=Model&color=orange"></a>
 
 </div>
 
