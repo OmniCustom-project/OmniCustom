@@ -75,6 +75,21 @@ huggingface-cli download Omni1307/OmniCustom \
   --local-dir-use-symlinks False  
 ```
 
+
+The final structure of the ckpts directory should be:
+```bash
+# ckpts 
+ckpts/
+├── InsightFace/
+├── MMAudio/
+├── Ovi/
+├── Wan2.2-TI2V-5B/
+├── naturalspeech3_facodec/
+└── step-92000.safetensors
+```
+
+
+
 ## ⚙️ Configure OmniCustom
 
 The configure file of  OmniCustom [OmniCustom/configs/inference/inference_fusion.yaml](configs/inference/inference_fusion.yaml) can be modified. The following parameters control generation quality, video resolution, and how text, image, and audio inputs are balanced:
