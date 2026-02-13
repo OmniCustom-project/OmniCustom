@@ -9,7 +9,8 @@
 
 ## 🔥 Latest News!
 
-* Feb 14, 2026: We proposed **OmniCustom**, a novel framework to deal with sync audio-video customization.  For more video demos, please visit the [project page](https://OmniCustom-project.github.io/page/).
+* Feb 12, 2026: We proposed **OmniCustom**, a novel framework to deal with sync audio-video customization.  For more video demos, please visit the [project page](https://OmniCustom-project.github.io/page/).
+* Feb 14, 2026: The inference code is publicly available.
 
 
 ## 🎥 Video
