@@ -265,4 +265,17 @@ If OmniCustom is helpful, please help to ⭐ the repo.
 
 ## 📚 Citation
 
-We will link the paper soon.
+```
+@article{li2026omnicustom,
+  title={OmniCustom: Sync Audio-Video Customization Via Joint Audio-Video Generation Model},
+  author={Li, Maomao and Li, Zhen and Zhang, Kaipeng and Yin, Guosheng and Li, Zhifeng and Xu, Dong},
+  journal={arXiv preprint arXiv:2602.12304},
+  year={2026}
+}
+```
+
+## 📣 Disclaimer
+
+This is official code of STEM Inversion.
+All the copyrights of the demo images and audio are from community users. 
+Feel free to contact us if you would like remove them.
