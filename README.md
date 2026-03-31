@@ -276,6 +276,6 @@ If OmniCustom is helpful, please help to ⭐ the repo.
 
 ## 📣 Disclaimer
 
-This is official code of STEM Inversion.
+This is official code of OmniCustom.
 All the copyrights of the demo images and audio are from community users. 
 Feel free to contact us if you would like remove them.
