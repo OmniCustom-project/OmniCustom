@@ -15,7 +15,8 @@
 
 ## 🎥 Video
 
-https://github.com/user-attachments/assets/8ddeaf77-ea5d-45d6-ad1a-440f64fc96a0
+https://github.com/user-attachments/assets/6087f68d-c69b-478b-92c0-7b23b6360922
+<!-- https://github.com/user-attachments/assets/8ddeaf77-ea5d-45d6-ad1a-440f64fc96a0 -->
 <!-- https://github.com/user-attachments/assets/7943515a-691b-417e-99c7-65003a63e258 -->
 
 
