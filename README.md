@@ -264,16 +264,7 @@ We would like to thank the following projects:
 
 If OmniCustom is helpful, please help to ⭐ the repo.
 
-## 📚 Citation
 
-```
-@article{li2026omnicustom,
-  title={OmniCustom: Sync Audio-Video Customization Via Joint Audio-Video Generation Model},
-  author={Li, Maomao and Li, Zhen and Zhang, Kaipeng and Yin, Guosheng and Li, Zhifeng and Xu, Dong},
-  journal={arXiv preprint arXiv:2602.12304},
-  year={2026}
-}
-```
 
 ## 📣 Disclaimer
 
